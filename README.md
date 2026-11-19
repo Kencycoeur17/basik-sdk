@@ -9,7 +9,9 @@
 </p>
 
 <p align="center">
-  <a href="https://bazik.io/docs/endpoints">Documentation</a> ·
+  <a href="https://bazik.io/docs/endpoints">API Documentation</a> ·
+  <a href="docs/README.fr.md">Guide français</a> ·
+  <a href="CONTRIBUTING.md">Contributing</a> ·
   <a href="#quick-start">Quick Start</a> ·
   <a href="#api-reference">API Reference</a> ·
   <a href="https://github.com/Kencycoeur17/basik-sdk/issues">Report Bug</a>
