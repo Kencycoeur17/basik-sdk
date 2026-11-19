@@ -17,6 +17,14 @@
 
 ---
 
+## Attribution and maintenance
+
+This repository contains an **unofficial Bazik API SDK**. The original Bazik SDK development is credited to **David UP** (as identified by the repository maintainer). The original author's GitHub account and canonical source repository have not yet been independently verified, so no unverified profile or upstream link is asserted here.
+
+**Braintechken / Kencycoeur17** maintains this repository copy and has contributed documentation improvements, a French onboarding guide, contribution guidance, and safer README credential examples. These contributions do not imply authorship of the original SDK or endorsement by Bazik.
+
+Existing copyright notices and the MIT license are retained. If you are the original author or know the canonical upstream repository, please open a pull request with verifiable attribution details.
+
 ## Features
 
 - **Zero dependencies** — Uses native `fetch` (Node.js 18+)
