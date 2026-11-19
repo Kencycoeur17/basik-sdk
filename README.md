@@ -12,7 +12,7 @@
   <a href="https://bazik.io/docs/endpoints">Documentation</a> ·
   <a href="#quick-start">Quick Start</a> ·
   <a href="#api-reference">API Reference</a> ·
-  <a href="https://github.com/bazik-io/bazik-sdk-js/issues">Report Bug</a>
+  <a href="https://github.com/Kencycoeur17/basik-sdk/issues">Report Bug</a>
 </p>
 
 ---
@@ -37,6 +37,9 @@ npm install bazik-sdk
 
 ## Quick Start
 
+> **Security:** Supply credentials through environment variables. Never commit real API keys to source control. If a key was exposed in Git history, revoke and rotate it with the provider.
+
+
 ```javascript
 // ESM
 import { Bazik } from "bazik-sdk";
@@ -45,8 +48,8 @@ import { Bazik } from "bazik-sdk";
 const { Bazik } = require("bazik-sdk");
 
 const bazik = new Bazik({
-  userID: "bzk_c5b754a0_1757383229",
-  secretKey: "sk_5b0ff521b331c73db55313dc82f17cab",
+  userID: process.env.BAZIK_USER_ID,
+  secretKey: process.env.BAZIK_SECRET_KEY,
 });
 
 // Authentication happens automatically on first API call.
